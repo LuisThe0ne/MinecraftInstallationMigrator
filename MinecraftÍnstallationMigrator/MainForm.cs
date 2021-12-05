@@ -24,8 +24,6 @@ namespace MinecraftÍnstallationMigrator
         public MainForm()
         {
             InitializeComponent();
-            
-            //FileSystem.CopyWithProgress(@"C:\temp\test", @"D:\temp\test", x => x.Percentage.ToString(),false);
         }
 
         private void mc_Path_open_Click(object sender, EventArgs e)
