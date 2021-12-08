@@ -26,7 +26,7 @@ namespace MinecraftÍnstallationMigrator
             InitializeComponent();
         }
 
-        private void mc_Path_open_Click(object sender, EventArgs e)
+        private void mc_path_open_Click(object sender, EventArgs e)
         {
             var mcopendialog = new FolderBrowserDialog();
 
@@ -114,5 +114,6 @@ namespace MinecraftÍnstallationMigrator
         {
             cancelSource.Cancel();
         }
+
     }
 }
